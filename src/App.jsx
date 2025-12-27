@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import Navbar from './Components/Navbar'
 import Hero from './Components/Hero'
+import Trustedby from './Components/Trustedby'
 
 function App() {
   //for local storage there we use 
@@ -29,8 +30,9 @@ function App() {
       </div>
       <div className=''>
         <Hero />
+        <Trustedby />
       </div>
-      <h1 className='text-green-400  text-3xl text-center  '>hello Agency.Ai</h1>
+      
     </>
   )
 }
