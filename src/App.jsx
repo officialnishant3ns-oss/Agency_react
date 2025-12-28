@@ -21,8 +21,6 @@ function App() {
   }, [theme]
   )
 
-
-
   return (
     <>
       <div className='dark:bg-black relative '>
@@ -32,7 +30,7 @@ function App() {
         <Hero />
         <Trustedby />
       </div>
-      
+
     </>
   )
 }
