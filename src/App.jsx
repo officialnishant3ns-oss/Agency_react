@@ -4,6 +4,7 @@ import './App.css'
 import Navbar from './Components/Navbar'
 import Hero from './Components/Hero'
 import Trustedby from './Components/Trustedby'
+import Footer from './Components/Footer'
 
 function App() {
   //for local storage there we use 
@@ -30,7 +31,7 @@ function App() {
         <Hero />
         <Trustedby />
       </div>
-
+         <div><Footer /></div>
     </>
   )
 }
