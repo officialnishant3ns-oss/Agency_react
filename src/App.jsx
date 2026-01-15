@@ -5,7 +5,7 @@ import Navbar from './Components/Navbar'
 import Hero from './Components/Hero'
 import Trustedby from './Components/Trustedby'
 import Footer from './Components/Footer'
-
+import Services from './Components/Services'
 function App() {
   //for local storage there we use 
   const [theme, setTheme] = useState(() => {
@@ -26,12 +26,11 @@ function App() {
     <>
       <div className='dark:bg-black relative '>
         <Navbar theme={theme} setTheme={setTheme} />
-      </div>
-      <div className=''>
+     
         <Hero />
         <Trustedby />
+        <Services />
       </div>
-         <div><Footer /></div>
     </>
   )
 }

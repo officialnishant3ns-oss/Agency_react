@@ -38,7 +38,7 @@ const Navbar = ({ theme, setTheme }) => {
 
                     <li>
                         <NavLink
-                            to="/service"
+                            to="/services"
                             onClick={() => setSidebarOpen(false)}
                             className={({ isActive }) => `hover:underline  ${isActive ? 'text-blue-600 dark:text-blue-400 font-semibold' : 'text-gray-600 dark:text-white'}`}                        >
                             Service

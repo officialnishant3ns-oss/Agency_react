@@ -3,9 +3,8 @@ import assets, { company_logos } from '../assets/assets'
 
 function Hero() {
     return (
-        <div className="       bg-[radial-gradient(circle_at_65%_50%,rgba(59,130,246,0.35),transparent_60%)]
-                dark:bg-[radial-gradient(circle_at_65%_50%,rgba(59,130,246,0.25),#020617_70%)]   dark:bg-gray-900 h-[118y0px] pt-45 flex flex-col items-center pl-28 pr-28 max-sm:pt-20 max-sm:pl-10 max-sm:pr-10 ">
-
+        <div className="   dark:bg-gray-900 h-[118y0px] pt-45 flex flex-col items-center pl-28 pr-28 max-sm:pt-20 max-sm:pl-10 max-sm:pr-10 ">
+              <img src={assets.bgImage1} className='absolute -top-10 -left-10 -z-1 dark:hidden' alt="" />
             <div className='flex items-center m-10 gap-3 h-12 w-95 max-sm:h-11 max-sm:w-66 border-2 border-gray-200 rounded-4xl justify-center dark:text-white '>
                 <img className='w-25 max-sm:w-20' src={assets.group_profile} alt="groupPhoto" />
                 <p className='text-xl font-bold max-sm:text-xs max-sm:font-medium '>Trusted By 10K+ People</p>
